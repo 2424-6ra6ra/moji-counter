@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Cockpit personal session artifacts (specs/ は公開して OK)
+.claude/handover.md
+.claude/handover-archive/
+.claude/lessons/user/
+
